@@ -1,0 +1,111 @@
+body{
+    background-color: #C63D2F;
+  }
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: section;}
+  .item6 { grid-area: footer;}
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'main main main main main main'
+      'section section section section section section'
+      'menu menu menu right right right'
+      'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color:#C63D2F;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #FA733B;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
+    font-family: 'Marko One', serif;
+    color: #FAE593;
+  }
+  
+  
+  /* estilo header */
+  
+  nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  #animacion1{
+      width: 100px;
+      height: 100px;
+      background-color:#C63D2F; 
+      animation-name: logo;
+      animation-duration: 4s;
+      animation-iteration-count: initial;
+      position: relative;
+      left: 0px;}
+  
+      @keyframes logo{
+          0%{background-color: #FBFFB1;}
+          25%{background-color:#FFBB5C;}
+          50%{background-color:#FF9B;}
+          75%{background-color:#E25E3E;}
+          100%{background-color: #C63D2F;}
+          }
+  
+  .menu{
+      list-style:none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .menu a:hover{
+      color: #C63D2F;
+  }
+  
+  .menu li{
+      margin-right: 20px;
+      
+  }
+  
+  li a{ 
+      text-decoration: none;
+      font-family: 'Marko One', serif;
+      color: #FAE593;
+      transition: color 0.5s ease;
+  }
+  
+  
+  
+
+*{
+    /* Eliminar predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Marko One', serif;
+    color: #FAE593;
+}
+
+.pdfview {
+    /* Centrado */
+    margin: auto;
+    display: block;
+    /* Tamaño */
+    width: 850px;
+    height: 100vh;
+    /* Mejorar aspecto */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

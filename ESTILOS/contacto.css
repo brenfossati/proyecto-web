@@ -1,0 +1,1257 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+    margin: 10px;
+    background-color: #767370;
+  }
+
+  .flex-container {
+    border: 1px solid black;
+    background: #545049;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: 90%;
+  }
+
+
+
+  /* NAVEGADOR */
+  .item1 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #767370;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 1;
+    width: -WEBKIT-FILL-AVAILABLE;
+  }
+
+  nav {
+    display: flex;
+    flex-flow:row;
+    justify-content: space-around;
+  }
+
+  #menu {
+    font-size: 10PX;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 5px;;
+  }
+
+  .lista {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .lista li {
+    margin-right: 15px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #f9be64;
+  }
+
+  li a:hover {
+    color: #C63D2F;
+  }
+
+  /* ANIMACION ANIMACION ANIMACION */
+
+  .logo {
+    DISPLAY: NONE;
+}
+
+  /* CONTACTO CONTACTO CONTACTO */
+
+  .contenedorcontacto {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #545049;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 3;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+  }
+  
+  h4{
+      font-size: 30px;
+      color: #545049;
+      text-align: center;
+      font-family: 'Marko One', serif;
+  }
+  
+  .btn {
+    font-family: 'Marko One', serif;
+    color: #545049;
+    border-radius: 90px;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px;
+    font-weight: bold;
+    padding: 0 1.5em;
+  }
+  .btn.full {
+    width: 100%;
+  }
+  
+  .btn.primary {
+    background-color: #767370;
+  }
+  
+  .tag span {
+    font-size: 25px;
+    padding: 5px;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;    
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  .form .tag span {
+      display: block;
+      text-align: center;
+    }
+  
+  #trucazo {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    padding: 10px;
+    margin: 10px;
+    background-color: #767370;
+  }
+
+  .flex-container {
+    border: 1px solid black;
+    background: #545049;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: 90%;
+  }
+
+
+
+  /* NAVEGADOR */
+  .item1 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #767370;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 1;
+    width: -WEBKIT-FILL-AVAILABLE;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #menu {
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: -4px;
+    margin-left: 30px;
+  }
+
+  .lista {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .lista li {
+    margin-right: 30px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #f9be64;
+  }
+
+  li a:hover {
+    color: #C63D2F;
+  }
+
+  /* ANIMACION ANIMACION ANIMACION */
+
+  .logo {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #animacion1 {
+    width: 100px;
+    height: 100px;
+    background-color: #C63D2F;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    position: relative;
+    left: 0px;
+  }
+
+  @keyframes logo {
+    0% {
+      background-color: #FBFFB1;
+    }
+
+    25% {
+      background-color: #FFBB5C;
+    }
+
+    50% {
+      background-color: #FF9B;
+    }
+
+    75% {
+      background-color: #E25E3E;
+    }
+
+    100% {
+      background-color: #C63D2F;
+    }
+  }
+
+  /* CONTACTO CONTACTO CONTACTO */
+
+  .contenedorcontacto {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #545049;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 3;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+  }
+  
+  h4{
+      font-size: 30px;
+      color: #545049;
+      text-align: center;
+      font-family: 'Marko One', serif;
+  }
+  
+  .btn {
+    font-family: 'Marko One', serif;
+    color: #545049;
+    border-radius: 90px;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px;
+    font-weight: bold;
+    padding: 0 1.5em;
+  }
+  .btn.full {
+    width: 100%;
+  }
+  
+  .btn.primary {
+    background-color: #767370;
+  }
+  
+  .tag span {
+    font-size: 25px;
+    padding: 5px;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;    
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  .form .tag span {
+      display: block;
+      text-align: center;
+    }
+  
+  #trucazo {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+  body {
+    padding: 10px;
+    margin: 10px;
+    background-color: #767370;
+  }
+
+  .flex-container {
+    border: 1px solid black;
+    background: #545049;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: 90%;
+  }
+
+
+
+  /* NAVEGADOR */
+  .item1 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #767370;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 1;
+    width: -WEBKIT-FILL-AVAILABLE;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  
+  #menu {
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  
+  .lista {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .lista li {
+    margin-right: 30px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #f9be64;
+  }
+  
+  li a:hover {
+    color: #C63D2F;
+  }
+  
+  /* ANIMACION ANIMACION ANIMACION */
+  
+  .logo {
+    padding: 5px;
+      margin: 5px;
+  }
+  
+  #animacion1 {
+    width: 100px;
+    height: 100px;
+    background-color: #C63D2F;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    position: relative;
+    left: 0px;
+  }
+  
+  @keyframes logo {
+    0% {
+      background-color: #FBFFB1;
+    }
+  
+    25% {
+      background-color: #FFBB5C;
+    }
+  
+    50% {
+      background-color: #FF9B;
+    }
+  
+    75% {
+      background-color: #E25E3E;
+    }
+  
+    100% {
+      background-color: #C63D2F;
+    }
+  }
+  /* CONTACTO CONTACTO CONTACTO */
+
+  .contenedorcontacto {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #545049;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 3;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+  }
+  
+  h4{
+      font-size: 30px;
+      color: #545049;
+      text-align: center;
+      font-family: 'Marko One', serif;
+  }
+  
+  .btn {
+    font-family: 'Marko One', serif;
+    color: #545049;
+    border-radius: 90px;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px;
+    font-weight: bold;
+    padding: 0 1.5em;
+  }
+  .btn.full {
+    width: 100%;
+  }
+  
+  .btn.primary {
+    background-color: #767370;
+  }
+  
+  .tag span {
+    font-size: 25px;
+    padding: 5px;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;    
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  .form .tag span {
+      display: block;
+      text-align: center;
+    }
+  
+  #trucazo {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    padding: 10px;
+    margin: 10px;
+    background-color: #767370;
+  }
+
+  .flex-container {
+    border: 1px solid black;
+    background: #545049;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: 90%;
+  }
+
+
+
+  /* NAVEGADOR */
+  .item1 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #767370;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+  #menu {
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 25px;
+  }
+
+  .lista {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .lista li {
+    margin-right: 30px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #f9be64;
+  }
+
+  li a:hover {
+    color: #C63D2F;
+  }
+
+  /* ANIMACION ANIMACION ANIMACION */
+
+  .logo {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #animacion1 {
+    width: 100px;
+    height: 100px;
+    background-color: #C63D2F;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    position: relative;
+    left: 0px;
+  }
+
+  @keyframes logo {
+    0% {
+      background-color: #FBFFB1;
+    }
+
+    25% {
+      background-color: #FFBB5C;
+    }
+
+    50% {
+      background-color: #FF9B;
+    }
+
+    75% {
+      background-color: #E25E3E;
+    }
+
+    100% {
+      background-color: #C63D2F;
+    }
+  }
+
+  /* CONTACTO CONTACTO CONTACTO */
+
+  .contenedorcontacto {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #545049;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 3;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+  }
+  
+  h4{
+      font-size: 30px;
+      color: #545049;
+      text-align: center;
+      font-family: 'Marko One', serif;
+  }
+  
+  .btn {
+    font-family: 'Marko One', serif;
+    color: #545049;
+    border-radius: 90px;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px;
+    font-weight: bold;
+    padding: 0 1.5em;
+  }
+  .btn.full {
+    width: 100%;
+  }
+  
+  .btn.primary {
+    background-color: #767370;
+  }
+  
+  .tag span {
+    font-size: 25px;
+    padding: 5px;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;    
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  .form .tag span {
+      display: block;
+      text-align: center;
+    }
+  
+  #trucazo {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 10px;
+    margin: 10px;
+    background-color: #767370;
+  }
+
+  .flex-container {
+    border: 1px solid black;
+    background: #545049;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    width: 90%;
+  }
+
+
+
+  /* NAVEGADOR */
+  .item1 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #767370;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  #menu {
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    height: 120px;
+
+  }
+
+  .lista {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .lista li {
+    margin-right: 30px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #f9be64;
+  }
+
+  li a:hover {
+    color: #C63D2F;
+  }
+
+  /* ANIMACION ANIMACION ANIMACION */
+
+  .logo {
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+
+  }
+
+  #animacion1 {
+    width: 100px;
+    height: 100px;
+    background-color: #C63D2F;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    position: relative;
+    left: 0px;
+  }
+
+  @keyframes logo {
+    0% {
+      background-color: #FBFFB1;
+    }
+
+    25% {
+      background-color: #FFBB5C;
+    }
+
+    50% {
+      background-color: #FF9B;
+    }
+
+    75% {
+      background-color: #E25E3E;
+    }
+
+    100% {
+      background-color: #C63D2F;
+    }
+  }
+
+  /* CONTACTO CONTACTO CONTACTO */
+
+  .contenedorcontacto {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #545049;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    order: 3;
+    WIDTH: -WEBKIT-FILL-AVAILABLE;
+  }
+  
+  h4{
+      font-size: 30px;
+      color: #545049;
+      text-align: center;
+      font-family: 'Marko One', serif;
+  }
+  
+  .btn {
+    font-family: 'Marko One', serif;
+    color: #545049;
+    border-radius: 90px;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px;
+    font-weight: bold;
+    padding: 0 1.5em;
+  }
+  .btn.full {
+    width: 100%;
+  }
+  
+  .btn.primary {
+    background-color: #767370;
+  }
+  
+  .tag span {
+    font-size: 25px;
+    padding: 5px;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+    color: #545049;
+    font-family: 'Marko One', serif;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;    
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  .form .tag span {
+      display: block;
+      text-align: center;
+    }
+  
+  #trucazo {
+    opacity: 0;
+  }
+
+}

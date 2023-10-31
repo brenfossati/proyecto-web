@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="shortcut icon" href="FAVICON/favicon.ico.ico" type="image/x-icon">
+  <link rel="stylesheet" href="ESTILOS/contacto.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="flex-container">
+    <div class="item1">
+      <nav>
+          <div class="logo">
+              <a href="index.html">
+                  <img id=animacion1 src="IMG\maintitle (1).png"
+                      alt="Logo de la página">
+              </a>
+          </div>
+          <div id="menu">
+              <ul class="lista">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="mangas.html">Mangas</a></li>
+                  <li><a href="noticias.html">Noticias</a></li>
+                  <li><a href="quiz.html">Quiz</a></li>
+                  <li><a href="contacto.html"> Contacto</a></li>
+              </ul>
+          </div>
+      </nav>
+  </div>
+  </div>
+    <div class="contenedorcontacto">
+      <div>
+        <form id="form" action="" class="form">
+          <h3 class="tag"><span>Estemos en contacto</span></h3>
+          <h4><span>Tus comentarios nos pueden ayudar a mejorar,<br> ¡Asi que no dudes en dejarlos por aquí!.</span>
+          </h4>
+          <label for="name">Nombre Completo <span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Juan">
+          <label for="email">Correo electrónico <span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" id="message" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn primary full">enviar mensaje</button>
+        </form>
+        <a href="mailto:arigatomanga23502@gmail.com" id="trucazo"></a>
+      </div>
+    </div>
+    <script src="JS\contacto.js"></script>
+  </section>
+</body>
+
+</html>

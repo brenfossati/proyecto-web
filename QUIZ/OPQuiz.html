@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: One Piece</title>
+    <link rel="shortcut icon"
+    href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\FAVICON\favicon.ico.ico"
+    type="image/x-icon">
+  <link rel="stylesheet" href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\ESTILOS\quizgeneral.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="flex-container">
+
+    <div class="item1">
+      <nav>
+        <div class="logo">
+          <a href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\index.html"><img id=animacion1
+              src="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\IMG\maintitle (1).png"
+              alt="Logo de la página"></a>
+        </div>
+        <div id="menu">
+          <ul class="lista">
+            <li><a href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\index.html">Inicio</a></li>
+            <li><a href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\mangas.html">Mangas</a>
+            </li>
+            <li><a href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\noticias.html">Noticias</a>
+            </li>
+            <li><a href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\quiz.html">Quiz</a></li>
+            <li><a href="C:\Users\brenp\OneDrive\Escritorio\PROYECTO WEB GRUPAL\PROYECTO WEB\contacto.html">
+                Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+        <div class="item2">
+            <section id="p0">
+                <h3>1.¿Cómo se llama el barco de los Mugiwara?</h3>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Thousand Sunny
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Bassile
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Queen Mama Chanter
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> No tiene nombre
+                </label>
+            </section>
+            <section id="p1">
+                <h3>2.¿En que orden se unieron a la tripulacion del sombrero de paja los siguientes personajes?</h3>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Zoro, Nami, Sanji, Ussop
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Nami, Ussop, Zoro, Sanji
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Zoro, Nami, Sanji, Ussop
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> Sanji, Ussop, Nami, Zoro
+                </label>
+            </section>
+            <section id="p2">
+                <h3>3.¿Quien es Gol D Roger?</h3>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> El rey de los Piratas
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> El papá de Luffy
+                </label>
+            </section>
+            <section id="p3">
+                <h3> 4.¿Como se conocen Luffy Y Zoro?</h3>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Cuando Luffy se mete a la base de los marinos.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Cuando Luffy pelea con el por un pedazo de carne.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Se conocen desde niños.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> En el atraco de Alvida.
+                </label>
+            </section>
+            <section id="p4">
+                <h3>5.¿Como se llama la hermana de Nami?</h3>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Nojiko
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Robin
+                </label>
+            </section>
+            <button onclick="corregir()">CORRERGIR</button>
+            <h2>Cantidades acertadas: <span id="resultado"></span></h2>
+        </div>
+    </div>
+
+    <script>
+
+        //arreglo que contiene las respuestas correctas
+        let correctas = [1, 3, 1, 1, 1];
+
+        //arreglo donde se guardan las respuestas del usuario 
+        let opcion_elegida = [];
+
+        let cantidad_correctas = 0;
+
+        function respuesta(num_pregunta, seleccionada) {
+
+            opcion_elegida[num_pregunta] = seleccionada.value;
+
+            id = "p" + num_pregunta;
+        }
+        function corregir() {
+            cantidad_correctas = 0;
+            for (i = 0; i < correctas.length; i++) {
+                if (correctas[i] == opcion_elegida[i]) {
+                    cantidad_correctas++;
+                }
+            }
+
+            document.getElementById("resultado").innerHTML = cantidad_correctas;
+        }
+    </script>
+</body>
+
+</html>

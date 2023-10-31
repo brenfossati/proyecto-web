@@ -1,0 +1,1150 @@
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        margin: 10px;
+        background-color: #767370;
+      }
+    
+      .flex-container {
+        border: 1px solid black;
+        background-color: #545049;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        width: 90%;
+      }
+    
+    
+    .flex-container > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Marko One', serif;
+      color: #545049;
+    }
+    
+    
+    
+      .item1 {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: #d7891d;
+    color: #767370;
+    font-family: 'Marko One', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    order: 1;
+    WIDTH: -webkit-fill-available;
+  }
+
+  nav {
+    display: flex;
+    flex-flow:row;
+    justify-content: space-around;
+  }
+
+  #menu {
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 5px;;
+  }
+
+  .lista {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .lista li {
+    margin-right: 15px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #545049;
+  }
+
+  li a:hover {
+    color: #B17523;
+  }
+
+  /* ANIMACION ANIMACION ANIMACION */
+
+  .logo {
+    DISPLAY: NONE;
+}
+    
+      .item2 {
+      border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 2;
+      }
+    
+    
+      .item3 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 3;
+      }
+    
+    
+      button {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 30px;
+        border-color: #545049;
+        align-items: center;
+        background-color: transparent;
+      }
+    
+      button a {
+        text-decoration: none;
+        font-family: 'Marko One', serif;
+        color: #545049;
+      }
+    
+      .title {
+          text-align: center;
+          padding: 20px;
+          font-family: 'Marko One', serif;
+          color: #545049;
+      }
+      
+     .pdfview {
+          /* Centrado */
+          margin: auto; 
+          display: block;
+          /* Tamaño */
+          WIDTH: -WEBKIT-FILL-AVAILABLE;
+          height: 100vh;
+          /* Mejorar aspecto */
+          border-radius: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {
+        padding: 10px;
+        margin: 10px;
+        background-color: #767370;
+      }
+    
+      .flex-container {
+        border: 1px solid black;
+        background-color: #545049;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        width: 90%;
+      }
+    
+    
+    .flex-container > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Marko One', serif;
+      color: #545049;
+    }
+    
+    
+    
+    .item1 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #767370;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        order: 1;
+        WIDTH: -webkit-fill-available;
+      }
+    
+      nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+    
+      #menu {
+        font-size: 16px;
+        margin: 5px;
+        padding: 5px;
+        margin-top: -4px;
+        margin-left: 30px;
+      }
+    
+      .lista {
+        display: flex;
+        list-style: none;
+        margin: 5px;
+        padding: 5px;
+      }
+    
+      .lista li {
+        margin-right: 30px;
+      }
+    
+      li a {
+        text-decoration: none;
+        color: #545049;
+      }
+    
+      li a:hover {
+        color: #B17523;
+      }
+    
+      /* ANIMACION ANIMACION ANIMACION */
+    
+      .logo {
+        padding: 5px;
+        margin: 5px;
+      }
+    
+      #animacion1 {
+        width: 100px;
+        height: 100px;
+        background-color: #C63D2F;
+        animation-name: logo;
+        animation-duration: 4s;
+        animation-iteration-count: initial;
+        position: relative;
+        left: 0px;
+      }
+    
+      @keyframes logo {
+        0% {
+          background-color: #FBFFB1;
+        }
+    
+        25% {
+          background-color: #FFBB5C;
+        }
+    
+        50% {
+          background-color: #FF9B;
+        }
+    
+        75% {
+          background-color: #E25E3E;
+        }
+    
+        100% {
+          background-color: #C63D2F;
+        }
+      }
+      .item2 {
+      border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 2;
+      }
+    
+    
+      .item3 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 3;
+      }
+    
+    
+      button {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 30px;
+        border-color: #545049;
+        align-items: center;
+        background-color: transparent;
+      }
+    
+      button a {
+        text-decoration: none;
+        font-family: 'Marko One', serif;
+        color: #545049;
+      }
+    
+      .title {
+          text-align: center;
+          padding: 20px;
+          font-family: 'Marko One', serif;
+          color: #545049;
+      }
+      
+      .pdfview {
+          /* Centrado */
+          margin: auto;
+          display: block;
+          /* Tamaño */
+          width: -webkit-fill-available;
+          height: 100vh;
+          /* Mejorar aspecto */
+          border-radius: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px){
+  
+    body {
+        padding: 10px;
+        margin: 10px;
+        background-color: #767370;
+      }
+    
+      .flex-container {
+        border: 1px solid black;
+        background-color: #545049;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        width: 90%;
+      }
+    
+    
+    .flex-container > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Marko One', serif;
+      color: #545049;
+    }
+    
+    
+    
+    .item1 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #767370;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        order: 1;
+        WIDTH: -webkit-fill-available;
+      }
+      
+      nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+      
+      
+      #menu {
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        margin-top: 25px;
+        margin-left: 25px;
+      }
+      
+      .lista {
+        display: flex;
+        list-style: none;
+        margin: 5px;
+        padding: 5px;
+      }
+      
+      .lista li {
+        margin-right: 30px;
+      }
+      
+      li a {
+        text-decoration: none;
+        color: #545049;
+      }
+      
+      li a:hover {
+        color: #B17523;
+      }
+      
+      /* ANIMACION ANIMACION ANIMACION */
+      
+      .logo {
+        padding: 5px;
+          margin: 5px;
+      }
+      
+      #animacion1 {
+        width: 100px;
+        height: 100px;
+        background-color: #C63D2F;
+        animation-name: logo;
+        animation-duration: 4s;
+        animation-iteration-count: initial;
+        position: relative;
+        left: 0px;
+      }
+      
+      @keyframes logo {
+        0% {
+          background-color: #FBFFB1;
+        }
+      
+        25% {
+          background-color: #FFBB5C;
+        }
+      
+        50% {
+          background-color: #FF9B;
+        }
+      
+        75% {
+          background-color: #E25E3E;
+        }
+      
+        100% {
+          background-color: #C63D2F;
+        }
+      }
+    
+      .item2 {
+      border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 2;
+      }
+    
+    
+      .item3 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 3;
+      }
+    
+    
+      button {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 30px;
+        border-color: #545049;
+        align-items: center;
+        background-color: transparent;
+      }
+    
+      button a {
+        text-decoration: none;
+        font-family: 'Marko One', serif;
+        color: #545049;
+      }
+    
+      .title {
+          text-align: center;
+          padding: 20px;
+          font-family: 'Marko One', serif;
+          color: #545049;
+      }
+      
+    .pdfview {
+          /* Centrado */
+          margin: auto;
+          display: block;
+          /* Tamaño */
+          width: -webkit-fill-available;
+          height: 100vh;
+          /* Mejorar aspecto */
+          border-radius: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px){
+  
+    body {
+        padding: 10px;
+        margin: 10px;
+        background-color: #767370;
+      }
+    
+      .flex-container {
+        border: 1px solid black;
+        background-color: #545049;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        width: 90%;
+      }
+    
+    
+    .flex-container > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Marko One', serif;
+      color: #545049;
+    }
+    
+    
+    
+      .item1 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #767370;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        order: 1;
+        WIDTH: -webkit-fill-available;
+      }
+    
+      .item1 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #767370;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        order: 1;
+        WIDTH: -webkit-fill-available;
+    }
+    
+    
+      nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+      #menu {
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+        margin-top: 25px;
+      }
+    
+      .lista {
+        display: flex;
+        list-style: none;
+        margin: 5px;
+        padding: 5px;
+      }
+    
+      .lista li {
+        margin-right: 30px;
+      }
+    
+      li a {
+        text-decoration: none;
+        color: #545049;
+      }
+    
+      li a:hover {
+        color: #B17523;
+      }
+    
+      /* ANIMACION ANIMACION ANIMACION */
+    
+      .logo {
+        padding: 5px;
+        margin: 5px;
+      }
+    
+      #animacion1 {
+        width: 100px;
+        height: 100px;
+        background-color: #C63D2F;
+        animation-name: logo;
+        animation-duration: 4s;
+        animation-iteration-count: initial;
+        position: relative;
+        left: 0px;
+      }
+    
+      @keyframes logo {
+        0% {
+          background-color: #FBFFB1;
+        }
+    
+        25% {
+          background-color: #FFBB5C;
+        }
+    
+        50% {
+          background-color: #FF9B;
+        }
+    
+        75% {
+          background-color: #E25E3E;
+        }
+    
+        100% {
+          background-color: #C63D2F;
+        }
+      }
+    
+      .item2 {
+      border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 2;
+      }
+    
+    
+      .item3 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 3;
+      }
+    
+    
+      button {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 30px;
+        border-color: #545049;
+        align-items: center;
+        background-color: transparent;
+      }
+    
+      button a {
+        text-decoration: none;
+        font-family: 'Marko One', serif;
+        color: #545049;
+      }
+    
+      .title {
+          text-align: center;
+          padding: 20px;
+          font-family: 'Marko One', serif;
+          color: #545049;
+      }
+      
+     .item2 > .pdfview {
+          /* Centrado */
+          margin: auto;
+          display: block;
+          /* Tamaño */
+          width: -webkit-fill-available;
+          height: 100vh;
+          /* Mejorar aspecto */
+          border-radius: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {
+        padding: 10px;
+        margin: 10px;
+        background-color: #767370;
+      }
+    
+      .flex-container {
+        border: 1px solid black;
+        background-color: #545049;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+        width: 90%;
+      }
+    
+    
+    .flex-container > div {
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+      font-size: 15px;
+      font-family: 'Marko One', serif;
+      color: #545049;
+    }
+    
+    .item1 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #767370;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        order: 1;
+        WIDTH: -webkit-fill-available;
+      }
+    
+      nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+      }
+    
+      #menu {
+        font-size: 30px;
+        margin: 5px;
+        padding: 5px;
+        height: 120px;
+        margin-top: 30px;
+    
+      }
+    
+      .lista {
+        display: flex;
+        list-style: none;
+        margin: 10px;
+        padding: 10px;
+      }
+    
+      .lista li {
+        margin-right: 30px;
+      }
+    
+      li a {
+        text-decoration: none;
+        color: #545049;
+      }
+    
+      li a:hover {
+        color: #B17523;
+      }
+    
+    
+      .logo {
+        padding: 10px;
+        margin: 10px;
+        width: 120px;
+        height: 120px;
+    
+      }
+    
+      #animacion1 {
+        width: 100px;
+        height: 100px;
+        background-color: #C63D2F;
+        animation-name: logo;
+        animation-duration: 4s;
+        animation-iteration-count: initial;
+        position: relative;
+        left: 0px;
+      }
+    
+      @keyframes logo {
+        0% {
+          background-color: #FBFFB1;
+        }
+    
+        25% {
+          background-color: #FFBB5C;
+        }
+    
+        50% {
+          background-color: #FF9B;
+        }
+    
+        75% {
+          background-color: #E25E3E;
+        }
+    
+        100% {
+          background-color: #C63D2F;
+        }
+      }
+      .item2 {
+      border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 2;
+      }
+    
+    
+      .item3 {
+        border: 1px solid rgb(70, 69, 69);
+        background-color: #d7891d;
+        color: #545049;
+        font-family: 'Marko One', serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        WIDTH: -WEBKIT-FILL-AVAILABLE;
+        height: 49.2%;
+        order: 3;
+      }
+    
+    
+      button {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 30px;
+        border-color: #545049;
+        align-items: center;
+        background-color: transparent;
+      }
+    
+      button a {
+        text-decoration: none;
+        font-family: 'Marko One', serif;
+        color: #545049;
+      }
+    
+      .title {
+          text-align: center;
+          padding: 20px;
+          font-family: 'Marko One', serif;
+          color: #545049;
+      }
+      
+     .pdfview {
+          /* Centrado */
+          margin: auto;
+          display: block;
+          /* Tamaño */
+          width: -webkit-fill-available;
+          height: 100vh;
+          /* Mejorar aspecto */
+          border-radius: 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } 
+    
+  }
